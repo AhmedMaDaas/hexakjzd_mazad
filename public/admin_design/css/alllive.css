@@ -1,0 +1,344 @@
+.all .content .info .basic{
+	width: 80%
+}
+.basic table tr{
+	height: auto
+}
+.basic table tr th{
+	width:140px;
+	text-align: center;
+	height: 50px;
+	font-family: var(--font);
+	color:var(--dblue);
+	font-size: 20px;
+
+}
+.basic .basicform{
+	display: flex;
+	flex-direction: row
+}
+.basic .basicform .alllivep{
+	margin-right: 60%;
+		font-family: var(--font);
+	color:var(--maincolor);
+	font-size: 26px;
+	text-decoration: underline
+}
+.basic .basicform .newl,.editl,.deletel,.newl a{
+	margin-right: 10px;
+	cursor: pointer;
+	color: var(--dblue);
+	font-size: 20px;
+	font-family: var(--font);
+	margin-top: 10px
+}
+.newl a:hover{
+	text-decoration: none;
+}
+.basic table tr td{
+	
+	 white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+	max-width: 120px;
+	text-align: center;
+	font-family: var(--font);
+	color:var(--fontcolor);
+	font-size: 20px;
+	height: 50px
+	
+}
+.submit{
+		margin-left: 40%;
+	width: 100px;
+	height: 40px;
+	background-color: var(--dblue);
+	border-radius: 5px;
+	color:white;
+	border:1px solid var(--dblue);
+	font-size: 20px;
+	font-family: Dubai;
+	margin-top: 20px
+}
+.paginate{
+	margin: auto;
+width: 35%}
+@media only screen and (max-width: 347px){
+	.all .sidebar{
+	width: 0px
+	}
+	.all .content{
+	width: 100%}
+	.all .sidebar.width{
+	width: 60px;
+	}
+	.all .content .navbar{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 3px;
+		padding-left: 16px
+	}
+    .all .content .navbar .list{
+	width: 20px;
+	height: 20px
+	}
+	.all .content .navbar .admin .logout {
+	width: 22px;
+	height: 22px;
+		margin-top: 8px
+	}
+	.all .sidebar .multiple .multi{
+	padding-left: 20px
+	}
+	.all .content .info .basic{
+	margin:auto;
+	width: 92%;
+	padding: 8px;
+		min-height: 300px;
+		margin-top: 15px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub{
+	  padding-left: 5px;
+	  left:62px;
+	  width: 110px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li{
+	height: 30px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li a{
+	font-size: 16px;
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb{
+	  padding-left: 5px;
+	  left:62px;
+	  width: 110px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li{
+	height: 30px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li a{
+		font-size: 16px
+	}
+	.all .sidebar .multiple .multi li img{
+	display: none
+	}
+	.all .sidebar.width .multiple .multi li img{
+	display: inline
+	}
+	.all .content .navbar .admin .adminname{
+	font-size: 18px;
+	margin-right: 5px;
+	margin-top: 6px
+	}}
+	
+	
+@media (min-width: 348px) and (max-width: 610px){
+.all .sidebar{
+	width: 0px
+	}
+	.all .content{
+	width: 100%}
+	.all .sidebar.width{
+	width: 60px;
+	}
+	.all .content .navbar{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 3px;
+		padding-left: 16px
+	}
+    .all .content .navbar .list{
+	width: 22px;
+	height: 22px
+	}
+	.all .content .navbar .admin .logout {
+	width: 22px;
+	height: 22px;
+		margin-top: 8px
+	}
+	.all .sidebar .multiple .multi{
+	padding-left: 20px
+	}
+	.all .content .info .basic{
+	margin:auto;
+	width: 92%;
+	padding: 8px;
+		min-height: 300px;
+		margin-top: 15px
+	}
+	.all .content .info .basic .basicinfo{
+	padding: 5px
+	}
+	.all .content .info .basic .basicinfo a{
+	font-size: 20px;
+		margin-right: 5px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub{
+	  padding-left: 5px;
+	  left:62px;
+	  width: 110px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li{
+	height: 30px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li a{
+	font-size: 18px;
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb{
+	  padding-left: 5px;
+	  left:62px;
+	  width: 110px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li{
+	height: 30px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li a{
+		font-size: 18px
+	}
+		.all .sidebar .multiple .multi li img{
+	display: none
+	}
+	.all .sidebar.width .multiple .multi li img{
+	display: inline
+	}
+	.all .content .navbar .admin .adminname{
+	font-size: 19px;
+	margin-right: 5px;
+	margin-top: 6px
+	}
+	.basic .basicform .alllivep{
+		margin-right: 50%;
+		font-size: 16px;
+		margin-top: 10px
+		}
+		.basic .basicform .newl, .editl, .deletel, .newl a {
+		font-size: 14px
+		}
+		.basic table tr td{
+		font-size: 12px}
+		.basic table tr th {
+		font-size: 12px}
+
+}
+	
+@media (min-width: 611px) and (max-width: 768px){
+	.all .sidebar{
+	width: 25%
+	}
+	.all .sidebar .logo .house{
+	font-size: 20px;
+		margin-right: 4px
+	}
+	.all .sidebar .logo img{
+	margin-left: 10px
+	}
+	.all .sidebar .multiple .multi{
+		padding-left: 14px;
+	}
+	.all .sidebar.width .multiple .multi{
+	padding-left: 34px
+	}
+	.all .sidebar .multiple .multi li a{
+	font-size: 19px
+	}
+	.all .content .info .basic {
+	width: 96%
+	}
+
+			.basic .basicform .alllivep{
+		margin-right: 45%;
+		font-size: 18px;
+		margin-top: 10px
+		}
+		.basic .basicform .newl, .editl, .deletel, .newl a {
+		font-size: 16px
+		}
+		.basic table tr td{
+		font-size: 14px}
+		.basic table tr th {
+		font-size: 14px}
+
+
+}
+	@media (min-width: 769px) and (max-width: 991.98px){
+		.all .content .info .basic{
+	width: 90%
+}
+	.all .sidebar{
+	width: 30%
+	}
+	.all .sidebar .logo .house{
+	font-size: 22px;
+		margin-right: 4px
+	}
+	.all .sidebar .logo img{
+	margin-left: 10px
+	}
+	.all .sidebar .multiple .multi{
+		padding-left: 34px;
+	}
+	.all .sidebar.width .multiple .multi{
+	padding-left: 34px
+	}
+	.all .sidebar .multiple .multi li a{
+	font-size: 21px
+	}
+	.all .content .info .basic {
+	width: 95%
+	}
+
+.all .sidebar .multiple .multi .aliveul.sub {
+    width: 130px;
+   
+    left: 90px;
+    top: 120px;
+   
+	}
+	.all .content .navbar .list,.all .content .navbar .admin .logout {
+	width: 24px;
+	height: 24px;
+	}
+	.all .content .navbar .admin .logout {
+	margin-top: 5px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li{
+	height: 33px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li a{
+	font-size: 18px;
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb{
+	  padding-left: 5px;
+	  left:90px;
+	  width: 130px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li{
+	height: 33px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li a{
+		font-size: 18px
+	}
+	.all .content .navbar{
+	padding-right: 10px
+				}
+		.basic .basicform .alllivep{
+		margin-right: 55%;
+		font-size: 20px;
+		margin-top: 10px
+		}
+		.basic .basicform .newl, .editl, .deletel, .newl a {
+		font-size: 18px
+		}
+		.basic table tr td{
+		font-size: 16px}
+		.basic table tr th {
+		font-size: 16px}
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+	.all .sidebar .logo .house{
+	font-size: 21px
+	}
+	.basic .basicform .alllivep{
+	margin-right: 50%}
+
+}

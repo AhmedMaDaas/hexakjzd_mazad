@@ -1,0 +1,162 @@
+:root{
+	--maincolor:#257BCE;
+	--dblue:#004485;
+	--fontcolor:#4c4848
+}
+.filter-blue{
+    filter: invert(14%) sepia(88%) saturate(3083%) hue-rotate(197deg) brightness(90%) contrast(101%);
+}
+
+.all{
+	display: flex;
+	flex-direction: row;
+	padding: 0px;
+	height: auto
+	
+}
+.all .sidebar{
+	width:20%;
+	-webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    transition:all 0.5s ease;
+	
+}
+.all .sidebar .logo{
+	padding: 5px;
+	background-color: white;
+	text-align: center;
+	display: flex
+}
+.all .sidebar .logo img{
+	width: 28px;
+	height: 28px;
+	margin-top: 15px;
+}
+.all .sidebar .logo .house{
+	color:var(--maincolor);
+	font-size:28px;
+	margin: 10px;
+	font-family:Lucida-Sans-Unicod;
+	margin-bottom: 0px;
+	margin-left: 4px
+}
+.all .sidebar .line{
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 80%;
+	background-color: #B9B9B9
+}
+.all .sidebar .multiple .multi .aliveul.sub{
+width: 170px;
+    position: absolute;
+    left: 100px;
+    top: 120px;
+    background-color: white;
+    padding-left: 15px;
+}
+.all .sidebar .multiple .multi .robot .robotul.subb{
+	width: 170px;
+	    position: absolute;
+    left: 100px;
+    top: 160px;
+    background-color: white;
+    padding-left: 15px;
+}
+.all .sidebar .multiple .multi li{
+	list-style-type: none;
+	text-align: left;
+	line-height: 40px
+}
+.all .sidebar .multiple .multi li a{
+	font-size: 26px;
+	color: var(--dblue);
+	margin-left: 6px;
+	font-family: Dubai
+}
+.all .sidebar .multiple .multi li a.active{
+color: var(--maincolor)
+}
+.all .sidebar .multiple .multi li a:hover{
+	text-decoration: none;
+	color:var(--maincolor);
+}
+.all .sidebar .multiple .multi li img{
+	width: 25px;
+	height: 25px;
+	margin-bottom: 8px;
+	cursor: pointer
+}
+
+.all .content{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	
+}
+.all .content .navbar{
+	background-color: var(--maincolor);
+	height: 60px
+}
+.all .content .info
+{
+	background-color: #f5f5f5;
+	min-height: 600px;
+	padding-bottom: 20px
+}
+.all .content .info .basic {
+	width: 66%;
+	background-color: white;
+	margin: auto;
+	min-height: 400px;
+	margin-top: 8%;
+	border-radius: 15px;
+	padding: 10px
+}
+.all .content .navbar{
+	display: flex;
+	flex-direction:row
+}
+.all .content .navbar .list{
+	width: 28px;
+	height: 28px;
+	cursor: pointer
+}
+.all .content .navbar .admin{
+	display: flex
+}
+.all .content .navbar .admin .adminname{
+	margin-right: 10px;
+	color:white;
+	font-family: Dubai;
+	font-size: 22px;
+	margin-bottom: 0px;
+	cursor: pointer
+}
+.all .content .navbar .admin .adminphoto{
+border-radius: 50%;
+	width: 34px;
+	height: 34px;
+	margin-right: 5px;
+	cursor: pointer
+}
+.all .content .navbar .admin .logout{
+	width: 28px;
+	cursor: pointer;
+	height: 28px
+}
+.all .sidebar.width{
+	width: 100px
+}
+.all .sidebar .logo img.test{
+	margin:auto;
+	width:35px;
+	height:35px
+}
+.all .sidebar .logo.effectlogo{
+	padding:20px
+}
+.all .content.b{
+	width:97%;
+}

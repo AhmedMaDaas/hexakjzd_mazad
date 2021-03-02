@@ -1,0 +1,28 @@
+.hidden{
+	display: none;
+}
+
+.basic .basicform .allsignin {
+    margin-right: auto;
+}
+
+.info .search .inputsearch img {
+    vertical-align: unset;
+}
+
+.info .search ul {
+	height: auto;
+}
+
+.formlive .speaker {
+	margin-top: -50px;
+}
+
+.final-winner {
+	margin-right: 10px;
+    cursor: pointer;
+    color: #ffc52d;
+    font-size: 20px;
+    font-family: var(--font);
+    margin-top: 10px;
+}

@@ -1,0 +1,635 @@
+:root{
+	--maincolor:#257BCE;
+	--dblue:#004485;
+	--fontcolor:#4c4848
+}
+.filter-blue{
+    filter: invert(14%) sepia(88%) saturate(3083%) hue-rotate(197deg) brightness(90%) contrast(101%);
+}
+
+.all{
+	display: flex;
+	flex-direction: row;
+	padding: 0px;
+	height: auto
+	
+}
+.all .sidebar{
+	width:20%;
+	-webkit-transition:all 0.2s ease;
+    -moz-transition:all 0.2s ease;
+    -o-transition:all 0.2s ease;
+    transition:all 0.2s ease;
+	
+}
+.all .sidebar .logo{
+	padding: 5px;
+	background-color: white;
+	text-align: center;
+	display: flex
+}
+.all .sidebar .logo img{
+	width: 28px;
+	height: 28px;
+	margin-top: 15px;
+}
+.all .sidebar .logo .house{
+	color:var(--maincolor);
+	font-size:28px;
+	margin: 10px;
+	font-family:Lucida-Sans-Unicod;
+	margin-bottom: 0px;
+	margin-left: 4px
+}
+
+.all .sidebar .line{
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 80%;
+	background-color: #B9B9B9
+}
+.all .sidebar .multiple .multi .aliveul.sub{
+width: 170px;
+    position: absolute;
+    left: 100px;
+    top: 120px;
+    background-color: white;
+    padding-left: 15px;
+}
+.all .sidebar .multiple .multi .robot .robotul.subb{
+	width: 170px;
+	    position: absolute;
+    left: 100px;
+    top: 160px;
+    background-color: white;
+    padding-left: 15px;
+}
+.all .sidebar .multiple .multi li{
+	list-style-type: none;
+	text-align: left;
+	line-height: 40px
+}
+.all .sidebar .multiple .multi li a{
+	font-size: 26px;
+	color: var(--dblue);
+	margin-left: 6px;
+	font-family: Dubai
+}
+.all .sidebar .multiple .multi li a.active{
+color: var(--maincolor)
+}
+.all .sidebar .multiple .multi li a:hover{
+	text-decoration: none;
+	color:var(--maincolor);
+}
+.all .sidebar .multiple .multi li img{
+	width: 25px;
+	height: 25px;
+	margin-bottom: 8px;
+	cursor: pointer
+}
+
+.all .content{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	
+}
+.all .content .navbar{
+	background-color: var(--maincolor);
+	height: 60px
+}
+.all .content .info
+{
+	background-color: #f5f5f5;
+	min-height: 600px;
+	padding-bottom: 20px
+}
+.all .content .info .basic {
+	width: 66%;
+	background-color: white;
+	margin: auto;
+	min-height: 400px;
+	margin-top: 8%;
+	border-radius: 15px;
+	padding: 10px
+}
+.all .content .info .basic .basicinfo {
+	padding: 10px
+}
+.all .content .info .basic .basicinfo a{
+	font-family: Dubai;
+	font-size: 26px;
+	color:#707070;
+	margin-right: 20px
+	
+}
+.all .content .info .basic .basicinfo a.effect{
+	text-decoration: underline;
+	color:var(--maincolor)
+}
+.all .content .info .basic .formbasic,.all .content .info .basic .formlive{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	padding-bottom: 0px
+}
+.all .content .info .basic .formbasic input[type="text"],.all .content .info .basic .formlive input[type="text"].welcomeinput{
+	width: 400px;
+	border: 1px solid #e5e6e7;
+	height: 40px;
+	border-radius: 3px;
+	margin-bottom: 10px
+}
+.all .content .info .basic .formbasic input[type="text"].effectblue,.all .content .info .basic .formlive input[type="text"].effectblue{
+	border:2px solid var(--maincolor)
+}
+
+
+.all .content .info .basic .formbasic label,.all .content .info .basic .formlive label{
+	color:var(--dblue);
+	margin-top: 10px;
+	font-size: 24px;
+	font-family: Dubai
+}
+.all .content .info .basic .formbasic .submit{
+	margin: auto;
+	width: 100px;
+	height: 40px;
+	background-color: var(--dblue);
+	border-radius: 5px;
+	color:white;
+	border:1px solid var(--dblue);
+	font-size: 20px;
+	font-family: Dubai;
+	margin-top: 20px
+}
+.formlive{
+overflow-y: scroll}
+.formlive table tr th,.formlive table tr td{
+	width: 90px;
+	color:var(--dblue);
+	font-family: Dubai;
+	font-size: 22px
+}
+
+
+.formlive table tr th.edit,.formlive table tr th.delete{
+	cursor: pointer;
+	width: 40px
+}
+.formlive table tr td#p{
+	color:var(--fontcolor);
+	font-size: 19px
+}
+.formlive table tr td img{
+	width: 50px;
+	height: 50px
+}
+.formlive table tr td #edit{
+	width: 12px;
+	height: 12px;
+	margin-right: 5px;
+	cursor: pointer
+}
+.formlive table tr td input[type="text"],{
+	width: 90px;
+	height: 30px
+}
+.all .content .navbar{
+	display: flex;
+	flex-direction:row
+}
+.all .content .navbar .list{
+	width: 28px;
+	height: 28px;
+	cursor: pointer
+}
+.all .content .navbar .admin{
+	display: flex
+}
+.all .content .navbar .admin .adminname{
+	margin-right: 10px;
+	color:white;
+	font-family: Dubai;
+	font-size: 22px;
+	margin-bottom: 0px;
+	cursor: pointer
+}
+.all .content .navbar .admin .adminphoto{
+border-radius: 50%;
+	width: 34px;
+	height: 34px;
+	margin-right: 5px;
+	cursor: pointer
+}
+.all .content .navbar .admin .logout{
+	width: 28px;
+	cursor: pointer;
+	height: 28px
+}
+.all .sidebar.width{
+	width: 100px
+}
+.all .sidebar .logo img.test{
+	margin:auto;
+	width:35px;
+	height:35px
+}
+.all .sidebar .logo.effectlogo{
+	padding:20px
+}
+.all .content.b{
+	width:97%;
+}
+
+.formlive table tr td .dimg{
+	width: 18px;
+	height: 18px;
+cursor: pointer
+}
+.newimg,.editimg,.deletimg{
+width:16px !important;
+	height:16px !important;
+	margin-right:5px;
+	cursor:pointer;
+	display: none;
+	margin-left: 12px
+
+}
+.formlive{
+overflow-y: scroll;
+	height: 400px
+
+}
+@media only screen and (max-width: 347px){
+	.all .sidebar{
+	width: 0px
+	}
+	.all .content{
+	width: 100%}
+	.all .sidebar.width{
+	width: 60px;
+	}
+	.all .content .navbar{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 3px;
+		padding-left: 16px
+	}
+    .all .content .navbar .list{
+	width: 20px;
+	height: 20px
+	}
+	.all .content .navbar .admin .logout {
+	width: 22px;
+	height: 22px;
+		margin-top: 8px
+	}
+	.all .sidebar .multiple .multi{
+	padding-left: 20px
+	}
+	.all .content .info .basic{
+	margin:auto;
+	width: 92%;
+	padding: 8px;
+		min-height: 300px;
+		margin-top: 15px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub{
+	  padding-left: 5px;
+	  left:62px;
+	  width: 110px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li{
+	height: 30px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li a{
+	font-size: 16px;
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb{
+	  padding-left: 5px;
+	  left:62px;
+	  width: 110px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li{
+	height: 30px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li a{
+		font-size: 16px
+	}
+	.all .sidebar .multiple .multi li img{
+	display: none
+	}
+	.all .sidebar.width .multiple .multi li img{
+	display: inline
+	}
+	.all .content .navbar .admin .adminname{
+	font-size: 18px;
+	margin-right: 5px;
+	margin-top: 6px
+	}
+
+}
+	
+	
+@media (min-width: 348px) and (max-width: 610px){
+.all .sidebar{
+	width: 0px
+	}
+	.all .content{
+	width: 100%}
+	.all .sidebar.width{
+	width: 60px;
+	}
+	.all .content .navbar{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 3px;
+		padding-left: 16px
+	}
+    .all .content .navbar .list{
+	width: 22px;
+	height: 22px
+	}
+	.all .content .navbar .admin .logout {
+	width: 22px;
+	height: 22px;
+		margin-top: 8px
+	}
+	.all .sidebar .multiple .multi{
+	padding-left: 20px
+	}
+	.all .content .info .basic{
+	margin:auto;
+	width: 92%;
+	padding: 8px;
+		min-height: 300px;
+		margin-top: 15px
+	}
+	.all .content .info .basic .basicinfo{
+	padding: 5px
+	}
+	.all .content .info .basic .basicinfo a{
+	font-size: 20px;
+		margin-right: 5px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub{
+	  padding-left: 5px;
+	  left:62px;
+	  width: 110px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li{
+	height: 30px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li a{
+	font-size: 18px;
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb{
+	  padding-left: 5px;
+	  left:62px;
+	  width: 110px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li{
+	height: 30px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li a{
+		font-size: 18px
+	}
+		.all .sidebar .multiple .multi li img{
+	display: none
+	}
+	.all .sidebar.width .multiple .multi li img{
+	display: inline
+	}
+	.all .content .navbar .admin .adminname{
+	font-size: 19px;
+	margin-right: 5px;
+	margin-top: 6px
+	}
+	.basic .allsignin{
+		margin-right: 70%;
+		font-size: 16px;
+		margin-top: 10px
+		}
+	
+		.basic table tr td{
+		font-size: 12px}
+		.basic table tr th {
+		font-size: 12px
+	}
+	.locinput input[type='text'] {
+	width:55px
+	}
+	.basic table tr td img{
+	width: 12px !important;
+	height: 12px !important
+	}
+	.page-link{
+	padding: .1em .3em;
+		font-size: 12px
+	}
+	.info .search .searchby{
+		height: 25px;
+		width: 100px;
+		font-size: 14px;
+		margin-bottom: 0px;
+		padding-top: 0px
+	}
+	.info .search ul{
+	width: 100px;
+	top:115px;
+	height: 130px
+	}
+	.info .search ul li{
+	font-size: 14px
+	}
+	.info .search ul li:hover{
+	font-size: 16px}
+	.select2-results__option--selectable{
+	font-size: 0.7rem !important}
+}
+	
+@media (min-width: 611px) and (max-width: 768px){
+	.all .sidebar{
+	width: 25%
+	}
+	.all .sidebar .logo .house{
+	font-size: 20px;
+		margin-right: 4px
+	}
+	.all .sidebar .logo img{
+	margin-left: 10px
+	}
+	.all .sidebar .multiple .multi{
+		padding-left: 14px;
+	}
+	.all .sidebar.width .multiple .multi{
+	padding-left: 34px
+	}
+	.all .sidebar .multiple .multi li a{
+	font-size: 19px
+	}
+	.all .content .info .basic {
+	width: 96%
+	}
+
+			.basic .allsignin{
+		margin-right: 75%;
+		font-size: 18px;
+		margin-top: 10px
+		}
+		
+		.basic table tr td{
+		font-size: 14px}
+		.basic table tr th {
+		font-size: 14px
+	}
+		.locinput input[type='text'] {
+	width:75px
+	}
+	.basic table tr td img{
+	width: 14px !important;
+	height: 14px !important
+	}
+	.page-link{
+	padding: .3em .5em;
+		font-size: 15px
+	}
+	.info .search .searchby{
+		height: 30px;
+		width: 120px;
+		font-size: 16px;
+		margin-bottom: 0px;
+		padding-top: 0px
+	}
+	.info .search ul{
+	width: 120px;
+	top:125px;
+	height: 150px
+	}
+	.info .search ul li{
+	font-size: 16px
+	}
+	.info .search ul li:hover{
+	font-size: 18px}
+
+	.select2-results__option--selectable{
+	font-size: 0.9rem !important}
+}
+	@media (min-width: 769px) and (max-width: 991.98px){
+	.all .sidebar{
+	width: 30%
+	}
+	.all .sidebar .logo .house{
+	font-size: 22px;
+		margin-right: 4px
+	}
+	.all .sidebar .logo img{
+	margin-left: 10px
+	}
+	.all .sidebar .multiple .multi{
+		padding-left: 34px;
+	}
+	.all .sidebar.width .multiple .multi{
+	padding-left: 34px
+	}
+	.all .sidebar .multiple .multi li a{
+	font-size: 21px
+	}
+	.all .content .info .basic {
+	width: 86%
+	}
+	
+	.all .content .info .basic .basicinfo{
+	padding: 5px
+	}
+	.all .content .info .basic .basicinfo a{
+	font-size: 22px;
+		margin-right: 5px
+	}
+.all .sidebar .multiple .multi .aliveul.sub {
+    width: 130px;
+   
+    left: 90px;
+    top: 120px;
+   
+	}
+	.all .content .navbar .list,.all .content .navbar .admin .logout {
+	width: 24px;
+	height: 24px;
+	}
+	.all .content .navbar .admin .logout {
+	margin-top: 5px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li{
+	height: 33px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li a{
+	font-size: 18px;
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb{
+	  padding-left: 5px;
+	  left:90px;
+	  width: 130px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li{
+	height: 33px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li a{
+		font-size: 18px
+	}
+	.all .content .navbar{
+	padding-right: 10px}
+		.basic  .allsignin{
+		margin-right: 74%;
+		font-size: 20px;
+		margin-top: 10px
+		}
+		
+		.basic table tr td{
+		font-size: 16px}
+		.basic table tr th {
+		font-size: 16px
+		}
+				.locinput input[type='text'] {
+	width:85px
+	}
+	.basic table tr td img{
+	width: 16px !important;
+	height: 15px !important
+	}
+	.page-link{
+	padding: .5em .7em;
+		font-size: 15px
+	}
+	.info .search .searchby{
+		height: 35px;
+		width: 130px;
+		font-size: 17px;
+		margin-bottom: 0px;
+		padding-top: 0px
+	}
+	.info .search ul{
+	width: 130px;
+	top:145px;
+	height: 170px
+	}
+	.info .search ul li{
+	font-size: 17px
+	}
+	.info .search ul li:hover{
+	font-size: 19px}
+				
+
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+	.all .sidebar .logo .house{
+	font-size: 23px
+	}
+	.basic .allsignin{
+	margin-right: 60%}
+
+
+}

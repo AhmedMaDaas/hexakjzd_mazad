@@ -1,0 +1,534 @@
+.all .content .info .basic{
+	width: 80%;
+	margin-top: 1.5%;
+	z-index: -20
+}
+.basic table tr th{
+	width:250px;
+	text-align: center;
+	height: 50px;
+	font-family: var(--font);
+	color:var(--dblue);
+	font-size: 20px;
+
+}
+.filter-red{
+    filter:  grayscale(100%) brightness(55%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(2);
+}
+.basic table tr td{
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+	width: 140px;
+	text-align: center;
+	font-family: var(--font);
+	color:var(--fontcolor);
+	font-size: 20px;
+	height: 50px
+	
+}
+.approval img{
+width: 27px;
+height: 27px;
+margin-right: 10px;
+cursor: pointer}
+.locinput input[type='text']{
+width: 140px
+}
+.basic table tr td.approval,.block{
+	max-width: 110px
+}
+.basic .basicform .allsignin{
+	margin-right: 83%;
+	font-family: var(--font);
+	color:var(--maincolor);
+	font-size: 26px;
+	text-decoration: underline
+}
+.info .search{
+	margin-top: 5%;
+	width: 550px;
+	text-align: center;
+	padding-top: 5px;
+	border-radius: 10px;
+	margin-left: 10%;
+	z-index: 4;
+	display: flex
+}
+.info .search ul{
+	
+    padding-left: 5px;
+	display: none;
+	height: 170px;
+	background: white;
+	border-radius: 10px;
+	padding-top: 5px;
+	font-family:Dubai;
+	position: absolute;
+	width: 150px;
+	top:170px;
+	border: 1px solid var(--maincolor)
+	
+	
+}
+.info .search .searchby{
+color:var(--maincolor);
+	cursor: pointer;
+	font-size: 21px;
+	background: white;
+	border-radius: 10px;
+    height: 40px;
+	margin-bottom: 10px;
+    padding-top: 2px;
+	width: 150px;
+	border: 2px solid var(--maincolor)
+}
+.info .search ul li{
+	list-style-type: none;
+	color:var(--maincolor);
+	cursor: pointer;
+    transition: all 0.1s ease;
+	-webkit-transition:transition: all 0.1s ease;;
+	-o-transition:transition: all 0.1s ease;
+	font-size: 18px
+}
+.info .search ul li:hover{
+	font-size: 20px
+}
+.info .search .inputsearch{
+	display: flex;
+	
+}
+.info .search .inputsearch input[type="text"]{
+	color:var(--maincolor);
+
+	font-size: 19px;
+	background: white;
+	border-radius: 10px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+    height: 40px;
+	margin-bottom: 10px;
+    padding-top: 5px;
+	width: 250px;
+	margin-left: 30px;
+	border: 2px solid var(--maincolor);
+
+}
+
+.info .search .inputsearch img{
+	width: 20px;
+	height: 20px
+}
+.info .search .inputsearch input[type="text"].css{
+	border: 2px solid var(--maincolor);}
+.info .search .inputsearch button{
+	height: 40px;
+	width: 40px;
+	background: white;
+	border: 2px solid var(--maincolor);
+	border-radius: 10px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.basic .basicform{
+	display: flex;
+	flex-direction: row
+}
+
+.paginate{
+	margin: auto;
+width: 35%;
+	margin-top: 30px
+}
+.page-link{
+    border: 2px solid #257bce;}
+.page-item.active .page-link{
+background-color: var(--maincolor);
+border:2px solid var(--maincolor)
+}
+@media only screen and (max-width: 347px){
+	.all .sidebar{
+	width: 0px
+	}
+	.all .content{
+	width: 100%}
+	.all .sidebar.width{
+	width: 60px;
+	}
+	.all .content .navbar{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 3px;
+		padding-left: 16px
+	}
+    .all .content .navbar .list{
+	width: 20px;
+	height: 20px
+	}
+	.all .content .navbar .admin .logout {
+	width: 22px;
+	height: 22px;
+		margin-top: 8px
+	}
+	.all .sidebar .multiple .multi{
+	padding-left: 20px
+	}
+	.all .content .info .basic{
+	margin:auto;
+	width: 92%;
+	padding: 8px;
+		min-height: 300px;
+		margin-top: 15px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub{
+	  padding-left: 5px;
+	  left:62px;
+	  width: 110px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li{
+	height: 30px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li a{
+	font-size: 16px;
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb{
+	  padding-left: 5px;
+	  left:62px;
+	  width: 110px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li{
+	height: 30px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li a{
+		font-size: 16px
+	}
+	.all .sidebar .multiple .multi li img{
+	display: none
+	}
+	.all .sidebar.width .multiple .multi li img{
+	display: inline
+	}
+	.all .content .navbar .admin .adminname{
+	font-size: 18px;
+	margin-right: 5px;
+	margin-top: 6px
+	}
+}
+	
+	
+@media (min-width: 348px) and (max-width: 610px){
+.all .sidebar{
+	width: 0px
+	}
+	.all .content{
+	width: 100%}
+	.all .sidebar.width{
+	width: 60px;
+	}
+	.all .content .navbar{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 3px;
+		padding-left: 16px
+	}
+    .all .content .navbar .list{
+	width: 22px;
+	height: 22px
+	}
+	.all .content .navbar .admin .logout {
+	width: 22px;
+	height: 22px;
+		margin-top: 8px
+	}
+	.all .sidebar .multiple .multi{
+	padding-left: 20px
+	}
+	.all .content .info .basic{
+	margin:auto;
+	width: 92%;
+	padding: 8px;
+		min-height: 300px;
+		margin-top: 15px
+	}
+	.all .content .info .basic .basicinfo{
+	padding: 5px
+	}
+	.all .content .info .basic .basicinfo a{
+	font-size: 20px;
+		margin-right: 5px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub{
+	  padding-left: 5px;
+	  left:62px;
+	  width: 110px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li{
+	height: 30px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li a{
+	font-size: 18px;
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb{
+	  padding-left: 5px;
+	  left:62px;
+	  width: 110px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li{
+	height: 30px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li a{
+		font-size: 18px
+	}
+		.all .sidebar .multiple .multi li img{
+	display: none
+	}
+	.all .sidebar.width .multiple .multi li img{
+	display: inline
+	}
+	.all .content .navbar .admin .adminname{
+	font-size: 19px;
+	margin-right: 5px;
+	margin-top: 6px
+	}
+	.basic .basicform .allsignin{
+		margin-right: 70%;
+		font-size: 16px;
+		margin-top: 10px
+		}
+		.basic .basicform .editl{
+		font-size: 14px
+		}
+		.basic table tr td{
+		font-size: 12px}
+		.basic table tr th {
+		font-size: 12px
+	}
+	.locinput input[type='text'] {
+	width:55px
+	}
+	.basic table tr td img{
+	width: 18px !important;
+	height: 18px !important
+	}
+	.page-link{
+	padding: .1em .3em;
+		font-size: 12px
+	}
+	.info .search .searchby{
+		height: 25px;
+		width: 100px;
+		font-size: 14px;
+		margin-bottom: 0px;
+		padding-top: 0px
+	}
+	.info .search ul{
+	width: 100px;
+	top:125px;
+	height: 130px
+	}
+	.info .search ul li{
+	font-size: 14px
+	}
+	.info .search ul li:hover{
+	font-size: 16px}
+		.info .search .inputsearch input[type="text"]{
+	height: 25px;
+		width: 140px
+	}
+	.info .search .inputsearch button{
+	height: 25px}
+	.info .search .inputsearch img{
+	height: 12px;
+	width: 12px}
+
+}
+	
+@media (min-width: 611px) and (max-width: 768px){
+	.all .sidebar{
+	width: 25%
+	}
+	.all .sidebar .logo .house{
+	font-size: 20px;
+		margin-right: 4px
+	}
+	.all .sidebar .logo img{
+	margin-left: 10px
+	}
+	.all .sidebar .multiple .multi{
+		padding-left: 14px;
+	}
+	.all .sidebar.width .multiple .multi{
+	padding-left: 34px
+	}
+	.all .sidebar .multiple .multi li a{
+	font-size: 19px
+	}
+	.all .content .info .basic {
+	width: 96%
+	}
+
+			.basic .basicform .allsignin{
+		margin-right: 75%;
+		font-size: 18px;
+		margin-top: 10px
+		}
+		.basic .basicform .editl{
+		font-size: 16px
+		}
+		.basic table tr td{
+		font-size: 14px}
+		.basic table tr th {
+		font-size: 14px
+	}
+		.locinput input[type='text'] {
+	width:75px
+	}
+	.basic table tr td img{
+	width: 20px !important;
+	height: 20px !important
+	}
+	.page-link{
+	padding: .3em .5em;
+		font-size: 15px
+	}
+	.info .search .searchby{
+		height: 30px;
+		width: 120px;
+		font-size: 16px;
+		margin-bottom: 0px;
+		padding-top: 0px
+	}
+	.info .search ul{
+	width: 120px;
+	top:125px;
+	height: 150px
+	}
+	.info .search ul li{
+	font-size: 16px
+	}
+	.info .search ul li:hover{
+	font-size: 18px}
+		.info .search .inputsearch input[type="text"]{
+	height: 30px;
+		width: 150px
+	}
+	.info .search .inputsearch button{
+	height: 30px}
+
+
+}
+	@media (min-width: 769px) and (max-width: 991.98px){
+	.all .sidebar{
+	width: 30%
+	}
+	.all .sidebar .logo .house{
+	font-size: 22px;
+		margin-right: 4px
+	}
+	.all .sidebar .logo img{
+	margin-left: 10px
+	}
+	.all .sidebar .multiple .multi{
+		padding-left: 34px;
+	}
+	.all .sidebar.width .multiple .multi{
+	padding-left: 34px
+	}
+	.all .sidebar .multiple .multi li a{
+	font-size: 21px
+	}
+	.all .content .info .basic {
+	width: 95%
+	}
+
+.all .sidebar .multiple .multi .aliveul.sub {
+    width: 130px;
+   
+    left: 90px;
+    top: 120px;
+   
+	}
+	.all .content .navbar .list,.all .content .navbar .admin .logout {
+	width: 24px;
+	height: 24px;
+	}
+	.all .content .navbar .admin .logout {
+	margin-top: 5px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li{
+	height: 33px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li a{
+	font-size: 18px;
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb{
+	  padding-left: 5px;
+	  left:90px;
+	  width: 130px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li{
+	height: 33px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li a{
+		font-size: 18px
+	}
+	.all .content .navbar{
+	padding-right: 10px
+				}
+		.basic .basicform .allsignin{
+		margin-right: 74%;
+		font-size: 20px;
+		margin-top: 10px
+		}
+		.basic .basicform .editl{
+		font-size: 18px
+		}
+		.basic table tr td{
+		font-size: 16px}
+		.basic table tr th {
+		font-size: 16px
+		}
+				.locinput input[type='text'] {
+	width:85px
+	}
+	.basic table tr td img{
+	width: 22px !important;
+	height: 22px !important
+	}
+	.page-link{
+	padding: .5em .7em;
+		font-size: 15px
+	}
+	.info .search .searchby{
+		height: 35px;
+		width: 130px;
+		font-size: 17px;
+		margin-bottom: 0px;
+		padding-top: 0px
+	}
+	.info .search ul{
+	width: 130px;
+	top:145px;
+	height: 170px
+	}
+	.info .search ul li{
+	font-size: 17px
+	}
+	.info .search ul li:hover{
+	font-size: 19px}
+				.info .search .inputsearch input[type="text"]{
+	height: 35px;
+		width: 170px
+	}
+	.info .search .inputsearch button{
+	height: 35px}
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+	.all .sidebar .logo .house{
+	font-size: 23px
+	}
+	.basic .basicform .allsignin{
+	margin-right: 60%}
+
+}

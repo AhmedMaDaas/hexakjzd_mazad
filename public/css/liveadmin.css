@@ -1,0 +1,341 @@
+.all .content{
+width:80%;
+		-webkit-transition:all 0.2s ease;
+    -moz-transition:all 0.2s ease;
+    -o-transition:all 0.2s ease;
+    transition:all 0.2s ease;
+}
+.all .content.b{
+width: 92%}
+.all .sidebar.width{
+width: 8%}
+
+.row{
+margin-right: 0px;
+margin-left: 0px}
+.sidebar .line
+{
+margin-left: 30px
+}
+
+.sidebar.width .line
+{
+margin-left: 10px
+}
+.content .informations-and-comments .comments-container .add-comment{
+padding-left: 30px}
+
+
+.content.b .informations-and-comments .comments-container .add-comment{
+
+padding-left: 50px
+}
+.informations-and-comments .comments-container .add-comment .content {
+width: 210px}
+
+.content.b .informations-and-comments .comments-container .comments .comment-footer .reply-form .reply-input {
+	width: 200px
+}
+.content .informations-and-comments .comments-container .comments .comment-footer .reply-form .reply-input {
+	width: 190px
+}
+.content .infoo .video-container{
+padding-right: 5px;
+padding-left: 0px
+}
+.content.b .infoo .video-container{
+padding-right: -15px;
+padding-left: -15px
+}
+.content .informations-and-comments .comments-container{
+width: 320px;
+max-width: none
+}
+.content .video-container .actions .start-live{
+	margin-left: 90px
+}
+.content.b .video-container .actions .start-live{
+	margin-left: 110px
+}
+.content.b .informations-and-comments .comments-container{
+width: 90%;
+max-width: 90%
+}
+
+.all .sidebar .multiple .multi .aliveul.sub,.all .sidebar .multiple .multi .robot .robotul.subb {
+z-index: 1;
+left: 110px
+}
+@media only screen and (max-width: 347px){
+	.all .sidebar{
+	width: 0px
+	}
+	.all .content{
+	width: 100%}
+	.all .sidebar.width{
+	width: 60px;
+	}
+	.all .content .navbar{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 3px;
+		padding-left: 16px
+	}
+    .all .content .navbar .list{
+	width: 20px;
+	height: 20px
+	}
+	.all .content .navbar .admin .logout {
+	width: 22px;
+	height: 22px;
+		margin-top: 8px
+	}
+	.all .sidebar .multiple .multi{
+	padding-left: 20px
+	}
+	.all .content .info .basic{
+	margin:auto;
+	width: 92%;
+	padding: 8px;
+		min-height: 300px;
+		margin-top: 15px
+	}
+
+	.all .sidebar .multiple .multi .aliveul.sub{
+	  padding-left: 5px;
+	  left:62px;
+	  width: 110px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li{
+	height: 30px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li a{
+	font-size: 16px;
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb{
+	  padding-left: 5px;
+	  left:62px;
+	  width: 110px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li{
+	height: 30px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li a{
+		font-size: 16px
+	}
+		.all .sidebar .multiple .multi li img{
+	display: none
+	}
+	.all .sidebar.width .multiple .multi li img{
+	display: inline
+	}
+	.all .content .navbar .admin .adminname{
+	font-size: 18px;
+	margin-right: 5px;
+	margin-top: 6px
+	}
+}
+@media (min-width: 348px) and (max-width: 610px){
+	.all .sidebar{
+	width: 0px
+	}
+	.all .content{
+	width: 100%}
+	.all .sidebar.width{
+	width: 60px;
+	}
+	.all .content .navbar{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 3px;
+		padding-left: 16px
+	}
+    .all .content .navbar .list{
+	width: 22px;
+	height: 22px
+	}
+	.all .content .navbar .admin .logout {
+	width: 22px;
+	height: 22px;
+		margin-top: 8px
+	}
+	.all .sidebar .multiple .multi{
+	padding-left: 20px
+	}
+
+	.all .sidebar .multiple .multi .aliveul.sub{
+	  padding-left: 5px;
+	  left:62px;
+	  width: 110px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li{
+	height: 30px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li a{
+	font-size: 18px;
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb{
+	  padding-left: 5px;
+	  left:62px;
+	  width: 110px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li{
+	height: 30px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li a{
+		font-size: 18px
+	}
+	.all .sidebar .multiple .multi li img{
+	display: none
+	}
+	.all .sidebar.width .multiple .multi li img{
+	display: inline
+	}
+	.all .content .navbar .admin .adminname{
+	font-size: 19px;
+	margin-right: 5px;
+	margin-top: 6px
+	}
+	.all .content.b .navbar{
+	padding-right: 10px
+	}
+}
+@media (min-width: 611px) and (max-width: 768px){
+	.all .content {
+		width: 75%}
+.all .sidebar{
+	width: 25%
+	}
+	.all .sidebar .logo .house{
+	font-size: 20px;
+		margin-right: 4px
+	}
+	.all .sidebar .logo img{
+	margin-left: 10px
+	}
+	.all .sidebar .multiple .multi{
+		padding-left: 14px;
+	}
+	.all .sidebar.width .multiple .multi{
+	padding-left: 14px
+	}
+	.all .sidebar .multiple .multi li a{
+	font-size: 19px
+	}
+	.all .content .info .basic {
+	width: 86%
+	}
+	
+	.all .content .info .basic .basicinfo{
+	padding: 5px
+	}
+	.all .content .info .basic .basicinfo a{
+	font-size: 20px;
+		margin-right: 5px
+	}
+.all .sidebar .multiple .multi .aliveul.sub {
+    width: 130px;
+   
+    left: 90px;
+    top: 120px;
+   
+	}
+	.all .content .navbar .list,.all .content .navbar .admin .logout {
+	width: 24px;
+	height: 24px;
+	}
+	.all .content .navbar .admin .logout {
+	margin-top: 5px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li{
+	height: 33px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li a{
+	font-size: 18px;
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb{
+	  padding-left: 5px;
+	  left:90px;
+	  width: 130px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li{
+	height: 33px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li a{
+		font-size: 18px
+	}
+	.all .content .navbar{
+	padding-right: 10px}
+	.all .content .navbar .admin .adminname{
+	font-size: 19px;
+	margin-right: 5px;
+	margin-top: 6px
+	}
+	.all .content.b .navbar{
+	padding-right: 10px
+}}
+@media (min-width: 769px) and (max-width: 991.98px){
+	.all .sidebar{
+	width: 30%
+	}
+	.all .sidebar .logo .house{
+	font-size: 22px;
+		margin-right: 4px
+	}
+	.all .sidebar .logo img{
+	margin-left: 10px
+	}
+	.all .sidebar .multiple .multi{
+		padding-left: 34px;
+	}
+	.all .sidebar.width .multiple .multi{
+	padding-left: 34px
+	}
+	.all .sidebar .multiple .multi li a{
+	font-size: 21px
+	}
+.all .sidebar .multiple .multi .aliveul.sub {
+    width: 130px;
+   
+    left: 90px;
+    top: 120px;
+   
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li{
+	height: 33px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li a{
+	font-size: 18px;
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb{
+	  padding-left: 5px;
+	  left:90px;
+	  width: 130px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li{
+	height: 33px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li a{
+		font-size: 18px
+	}
+	.all .content .navbar{
+		padding-right: 10px}
+	.all .content .navbar .admin .adminname{
+	font-size: 19px;
+	margin-right: 5px;
+	margin-top: 6px
+	}
+	.all .content.b .navbar{
+	padding-right: 10px
+	}
+	.all .content{
+	width: 70%}
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+	.all .sidebar .logo .house{
+	font-size: 23px
+	}
+
+}
+	
+	

@@ -1,0 +1,325 @@
+:root{
+	--font:Dubai;
+}
+.info .basic .newlive{
+	font-family: var(--font);
+	color:var(--maincolor);
+	font-size: 26px;
+	text-decoration: underline
+}
+.info .basic .newformlive table{
+	display: flex;
+	flex-direction: column
+}
+.info .basic .newformlive table tr{
+	display: flex
+}
+.info .basic .newformlive table tr td label{
+	font-size: 20px;
+	color: var(--dblue);
+	margin-right: 10px;
+	width: 120px;
+	margin-top: 5px;
+	font-family: var(--font)
+}
+.info .basic .newformlive table tr td input[type="datetime-local"]{
+width: 260px;
+	height: 35px;
+	border: 1px solid #e5e6e7;
+	border-radius: 3px;
+	color:var(--dblue)
+	
+}
+.info .basic .newformlive table tr td input[type="text"], .info .basic .newformlive table tr td textarea{
+	width: 260px;
+	border: 1px solid #e5e6e7;
+	height: 35px;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	margin-top: 5px
+}
+.info .basic .newformlive table tr td textarea{
+	height: 50px;
+}
+.info .basic .newformlive .submit{
+	margin-left: 40%;
+	width: 100px;
+	height: 40px;
+	background-color: var(--dblue);
+	border-radius: 5px;
+	color:white;
+	border:1px solid var(--dblue);
+	font-size: 20px;
+	font-family: Dubai;
+	margin-top: 20px
+}
+.info .basic .newformlive .date,.info .basic .newformlive .murl,.info .basic .newformlive .mminute,.newformlive .mnumber{
+	color:red;
+	margin-bottom: 0px
+}
+@media only screen and (max-width: 347px){
+	.all .sidebar{
+	width: 0px
+	}
+	.all .content{
+	width: 100%}
+	.all .sidebar.width{
+	width: 60px;
+	}
+	.all .content .navbar{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 3px;
+		padding-left: 16px
+	}
+    .all .content .navbar .list{
+	width: 20px;
+	height: 20px
+	}
+	.all .content .navbar .admin .logout {
+	width: 22px;
+	height: 22px;
+		margin-top: 8px
+	}
+	.all .sidebar .multiple .multi{
+	padding-left: 20px
+	}
+	.all .content .info .basic{
+	margin:auto;
+	width: 92%;
+	padding: 8px;
+		min-height: 300px;
+		margin-top: 15px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub{
+	  padding-left: 5px;
+	  left:62px;
+	  width: 110px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li{
+	height: 30px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li a{
+	font-size: 16px;
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb{
+	  padding-left: 5px;
+	  left:62px;
+	  width: 110px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li{
+	height: 30px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li a{
+		font-size: 16px
+	}
+	.all .sidebar .multiple .multi li img{
+	display: none
+	}
+	.all .sidebar.width .multiple .multi li img{
+	display: inline
+	}
+	.all .content .navbar .admin .adminname{
+	font-size: 18px;
+	margin-right: 5px;
+	margin-top: 6px
+	}
+	.info .basic .newlive{
+	font-size: 18px
+	}
+	.info .basic .newformlive table tr td label{
+	font-size: 14px
+	}
+	.info .basic .newformlive table tr td label{
+	width: 60px;
+	}
+
+	.info .basic .newformlive table tr td input[type="datetime-local"],.info .basic .newformlive table tr td input[type="text"]{
+	width: 130px
+	}
+	.info .basic .newformlive .submit{
+		width: 80px;
+		height: 30px;
+		font-size: 17px
+	}
+
+
+}
+@media (min-width: 348px) and (max-width: 610px){
+.all .sidebar{
+	width: 0px
+	}
+	.all .content{
+	width: 100%}
+	.all .sidebar.width{
+	width: 60px;
+	}
+	.all .content .navbar{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 3px;
+		padding-left: 16px
+	}
+    .all .content .navbar .list{
+	width: 22px;
+	height: 22px
+	}
+	.all .content .navbar .admin .logout {
+	width: 22px;
+	height: 22px;
+		margin-top: 8px
+	}
+	.all .sidebar .multiple .multi{
+	padding-left: 20px
+	}
+	.all .content .info .basic{
+	margin:auto;
+	width: 92%;
+	padding: 8px;
+		min-height: 300px;
+		margin-top: 15px
+	}
+	.all .content .info .basic .basicinfo{
+	padding: 5px
+	}
+	.all .content .info .basic .basicinfo a{
+	font-size: 20px;
+		margin-right: 5px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub{
+	  padding-left: 5px;
+	  left:62px;
+	  width: 110px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li{
+	height: 30px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li a{
+	font-size: 18px;
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb{
+	  padding-left: 5px;
+	  left:62px;
+	  width: 110px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li{
+	height: 30px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li a{
+		font-size: 18px
+	}
+		.all .sidebar .multiple .multi li img{
+	display: none
+	}
+	.all .sidebar.width .multiple .multi li img{
+	display: inline
+	}
+	.all .content .navbar .admin .adminname{
+	font-size: 19px;
+	margin-right: 5px;
+	margin-top: 6px
+	}
+		.info .basic .newformlive table tr td label{
+	font-size: 15px
+	}
+	.info .basic .newformlive table tr td label{
+	width: 70px;
+	}
+
+	.info .basic .newformlive table tr td input[type="datetime-local"],.info .basic .newformlive table tr td input[type="text"]{
+	width: 150px
+	}
+	.info .basic .newformlive .submit{
+		width: 80px;
+		height: 30px;
+		font-size: 17px
+	}}
+	@media (min-width: 611px) and (max-width: 768px){
+	.all .sidebar{
+	width: 25%
+	}
+	.all .sidebar .logo .house{
+	font-size: 20px;
+		margin-right: 4px
+	}
+	.all .sidebar .logo img{
+	margin-left: 10px
+	}
+	.all .sidebar .multiple .multi{
+		padding-left: 14px;
+	}
+	.all .sidebar.width .multiple .multi{
+	padding-left: 34px
+	}
+	.all .sidebar .multiple .multi li a{
+	font-size: 19px
+	}
+	.all .content .info .basic {
+	width: 86%
+	}
+}
+@media (min-width: 769px) and (max-width: 991.98px){
+	.all .sidebar{
+	width: 30%
+	}
+	.all .sidebar .logo .house{
+	font-size: 22px;
+		margin-right: 4px
+	}
+	.all .sidebar .logo img{
+	margin-left: 10px
+	}
+	.all .sidebar .multiple .multi{
+		padding-left: 34px;
+	}
+	.all .sidebar.width .multiple .multi{
+	padding-left: 34px
+	}
+	.all .sidebar .multiple .multi li a{
+	font-size: 21px
+	}
+	.all .content .info .basic {
+	width: 86%
+	}
+
+.all .sidebar .multiple .multi .aliveul.sub {
+    width: 130px;
+   
+    left: 90px;
+    top: 120px;
+   
+	}
+	.all .content .navbar .list,.all .content .navbar .admin .logout {
+	width: 24px;
+	height: 24px;
+	}
+	.all .content .navbar .admin .logout {
+	margin-top: 5px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li{
+	height: 33px
+	}
+	.all .sidebar .multiple .multi .aliveul.sub li a{
+	font-size: 18px;
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb{
+	  padding-left: 5px;
+	  left:90px;
+	  width: 130px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li{
+	height: 33px
+	}
+	.all .sidebar .multiple .multi .robot .robotul.subb li a{
+		font-size: 18px
+	}
+	.all .content .navbar{
+	padding-right: 10px}
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+	.all .sidebar .logo .house{
+	font-size: 23px
+	}
+
+}
+	
